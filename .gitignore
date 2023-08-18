@@ -3,6 +3,8 @@
 /tconplanner
 /journeymap
 /logs
+/local
+/exports
 *cache*
 servers.dat
 patchouli_data.json

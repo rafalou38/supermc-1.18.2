@@ -3,16 +3,16 @@
 [common]
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 128
+	Limit = 256
 	#How many blocks per tick can be excavated
 	#Range: > 1
-	Speed = 64
+	Speed = 32
 	#How far from the origin an excavation can travel
 	#Range: > 1
-	Range = 16
+	Range = 24
 	#Amount of exhaustion per block excavated
 	#Range: 0.0 ~ 1.7976931348623157E308
-	Ehxaustion = 0.1
+	Ehxaustion = 0.025
 	#Experience cost per block excavated
 	#Range: > 0
 	Experience = 0
@@ -31,7 +31,7 @@
 	#Temporarily reduces excavation speed if TPS begins to slow down
 	"TPS Guard" = true
 	#Skips spawning drops in world adding them directly to your inventory
-	"Auto Pickup" = false
+	"Auto Pickup" = true
 	#Allow players to use shape mining
 	"Allow Shapes" = true
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
